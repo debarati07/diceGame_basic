@@ -1,0 +1,129 @@
+body{
+
+    background-color: #1E3163;
+}
+.upper_container
+{
+    text-align: center;
+}
+.title
+{
+    font-family: 'Indie Flower', cursive;
+    font-size: 10rem;
+    color: #FEF1E6;
+    margin-bottom:0;
+   
+}
+.players
+{
+    font-size: 3rem;
+    color: aliceblue;
+    font-family: 'Indie Flower', cursive;
+}
+.div1
+{
+    display: inline-block;
+}
+.div2
+{
+    display: inline-block;
+}
+.dice
+{
+    height:300px;
+}
+.diceball
+{
+    height:300px;
+}
+#player10
+{
+    padding-right: 300px;
+}
+#player1
+{
+    padding-right: 300px;
+}
+#name_of_player1
+{
+    margin-right: 300px;
+}
+.start a
+{
+    font-size: 4rem;
+    font-family: 'Indie Flower', cursive;
+    color: #FEF1E6;
+    text-decoration: none;
+}
+.top
+{
+    display:inline-block;
+}
+.second_page
+{
+    text-align: center;
+}
+.heading
+{
+    font-size: 7rem;
+    color:#FEF1E6 ;
+}
+.player
+{
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+    color: #FEF1E6;
+}
+@media  screen and (max-width:480px)
+{
+    .title
+    {
+        font-size:4rem;
+    }
+    #player10
+    {
+        padding: 0;
+    }
+    .div1,.div2
+    {
+        display: block;
+    }
+    #name_of_player1
+    {
+        margin: 0%;
+    }
+    .heading
+    {
+        font-size: 3rem;
+    }
+    #player1,.diceball,.player
+    {
+        padding: 0;
+        height: 150px;
+        font-size: 2rem;
+    }
+}
+@media (min-width:490px) and (max-width:770px)
+{
+    #player10
+    {
+        padding: 0;
+    }
+    .div1,.div2
+    {
+        display: block;
+    }
+    #name_of_player1
+    {
+        margin: 0%;
+    }
+    .heading
+    {
+        font-size: 3rem;
+    }
+    #player1,.diceball,.player
+    {
+        height: 150px;
+        font-size: 2rem;
+    }
+}
